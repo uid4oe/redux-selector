@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/redux-selector-example/static/js/main.5188a4e7.chunk.js",
-    "main.js.map": "/redux-selector-example/static/js/main.5188a4e7.chunk.js.map",
-    "runtime-main.js": "/redux-selector-example/static/js/runtime-main.2c5907c2.js",
-    "runtime-main.js.map": "/redux-selector-example/static/js/runtime-main.2c5907c2.js.map",
-    "static/css/2.98f7803e.chunk.css": "/redux-selector-example/static/css/2.98f7803e.chunk.css",
-    "static/js/2.10004d44.chunk.js": "/redux-selector-example/static/js/2.10004d44.chunk.js",
-    "static/js/2.10004d44.chunk.js.map": "/redux-selector-example/static/js/2.10004d44.chunk.js.map",
-    "static/js/3.06004fd5.chunk.js": "/redux-selector-example/static/js/3.06004fd5.chunk.js",
-    "static/js/3.06004fd5.chunk.js.map": "/redux-selector-example/static/js/3.06004fd5.chunk.js.map",
-    "index.html": "/redux-selector-example/index.html",
-    "static/css/2.98f7803e.chunk.css.map": "/redux-selector-example/static/css/2.98f7803e.chunk.css.map",
-    "static/js/2.10004d44.chunk.js.LICENSE.txt": "/redux-selector-example/static/js/2.10004d44.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/redux-selector-example/static/media/outline-icons.ddae9b1b.woff"
+    "main.js": "/redux-selector/static/js/main.5188a4e7.chunk.js",
+    "main.js.map": "/redux-selector/static/js/main.5188a4e7.chunk.js.map",
+    "runtime-main.js": "/redux-selector/static/js/runtime-main.c866bbc9.js",
+    "runtime-main.js.map": "/redux-selector/static/js/runtime-main.c866bbc9.js.map",
+    "static/css/2.d89ce3ca.chunk.css": "/redux-selector/static/css/2.d89ce3ca.chunk.css",
+    "static/js/2.10004d44.chunk.js": "/redux-selector/static/js/2.10004d44.chunk.js",
+    "static/js/2.10004d44.chunk.js.map": "/redux-selector/static/js/2.10004d44.chunk.js.map",
+    "static/js/3.06004fd5.chunk.js": "/redux-selector/static/js/3.06004fd5.chunk.js",
+    "static/js/3.06004fd5.chunk.js.map": "/redux-selector/static/js/3.06004fd5.chunk.js.map",
+    "index.html": "/redux-selector/index.html",
+    "static/css/2.d89ce3ca.chunk.css.map": "/redux-selector/static/css/2.d89ce3ca.chunk.css.map",
+    "static/js/2.10004d44.chunk.js.LICENSE.txt": "/redux-selector/static/js/2.10004d44.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/redux-selector/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c5907c2.js",
-    "static/css/2.98f7803e.chunk.css",
+    "static/js/runtime-main.c866bbc9.js",
+    "static/css/2.d89ce3ca.chunk.css",
     "static/js/2.10004d44.chunk.js",
     "static/js/main.5188a4e7.chunk.js"
   ]
