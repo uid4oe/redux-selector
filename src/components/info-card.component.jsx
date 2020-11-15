@@ -11,8 +11,6 @@ const InfoCardWSelector = (props) => {
   const renderCount = useRef(0);
   renderCount.current = renderCount.current + 1;
 
-  console.log(props);
-
   const { portion, counter } = props;
 
   return (
