@@ -10,7 +10,6 @@ const RenderCountCard = () => {
       <Grid.Column as={Card} textAlign="center">
         <Card.Content>
           <Card.Header>Rerender Count</Card.Header>
-
           <Statistic color="green" size="huge">
             <Statistic.Value>{renderCount.current}</Statistic.Value>
           </Statistic>

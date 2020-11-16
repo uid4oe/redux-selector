@@ -3,7 +3,7 @@ import { Card, Statistic, Grid, Divider } from "semantic-ui-react";
 
 import RenderCountCard from "./rerender-count-card.component";
 
-const InfoCardStore = (props) => {
+const InfoCardStore = ({ first, second }) => {
   return (
     <>
       <Grid divided>
@@ -16,13 +16,13 @@ const InfoCardStore = (props) => {
               <Grid.Row columns={2}>
                 <Grid.Column>
                   <Statistic color="red">
-                    <Statistic.Value>{props.first.counter}</Statistic.Value>
+                    <Statistic.Value>{first.counter}</Statistic.Value>
                     <Statistic.Label>First Portion Counter</Statistic.Label>
                   </Statistic>
                 </Grid.Column>
                 <Grid.Column>
                   <Statistic color="blue">
-                    <Statistic.Value>{props.second.counter}</Statistic.Value>
+                    <Statistic.Value>{second.counter}</Statistic.Value>
                     <Statistic.Label>Second Portion Counter</Statistic.Label>
                   </Statistic>
                 </Grid.Column>
@@ -31,7 +31,7 @@ const InfoCardStore = (props) => {
           </Card.Content>
           <Card.Content textAlign="center">
             <Card.Description>
-              <pre> State: {JSON.stringify(props)}</pre>
+              <pre> State: {JSON.stringify({ first, second })}</pre>
             </Card.Description>
           </Card.Content>
         </Grid.Column>
@@ -44,8 +44,6 @@ const InfoCardStore = (props) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return state;
-};
+const mapStateToProps = (state) => state;
 
 export default connect(mapStateToProps, null)(InfoCardStore);
